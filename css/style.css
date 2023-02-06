@@ -1,0 +1,112 @@
+.container{
+    max-width: 1440px;
+    background-color: #ffffff;
+    border: 5px solid black;
+   
+}
+/* w4 */
+header{
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px ;
+    box-shadow: inset coral 50px;
+}
+
+ul{
+    color: blue;
+    display: flex;
+    gap: 50px;
+}
+
+.header{
+    font-size: 40px;
+    box-shadow: 10px coral;
+    
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: coral;
+    transition-duration: 5s;
+}
+
+/* w1 */
+.kvadrati{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border: 2px solid blue;
+    box-shadow: 10px 15px red;
+    transition-duration: 2s;
+}
+.kvadrati:hover{
+    cursor: pointer;
+    box-shadow: 10px 15px red;
+    transform: scale(2);
+}
+
+/* w2 */
+.wre{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: 200px;
+    animation: opacity 4s infinite;
+}
+@keyframes opacity {
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+/* w3 */
+.paragrafi{
+    margin-top: 50px;
+    font-size: 20px;
+    color: darkgreen;
+animation: paragrafi 7s infinite;
+}
+@keyframes paragrafi {
+    0%{
+font-size: 20px;
+    }
+    25%{
+font-size: 18px;
+    }
+    50%{
+font-size: 15px;
+    }
+    75%{
+font-size: 12px;
+    }
+    100%{
+font-size: 8px;
+    }
+}
+
+/* w5 */
+.photo{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+object-fit: cover;
+object-position: center;
+animation: photo 2s infinite;
+}
+
+@keyframes photo {
+    0%{
+transform: rotateZ(0deg);
+    }
+    100%{
+transform: rotateZ(360deg);
+    }
+}
